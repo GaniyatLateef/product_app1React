@@ -1,0 +1,33 @@
+.todo_panel {
+    max-width: 500px;
+    background-color: #dcdcdc;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.todo_panel .title {
+    text-align: center;
+    color: #800080;
+    font-size: 24px;
+}
+
+.todo_child-panel {
+    background-color: white;
+    font-size: 14px;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 8px;
+    border-left: orange solid 8px;
+}
+
+.todo_child-panel .title {
+    font-size: 18px;
+    text-align: left;
+    color: black;
+}
+
+.todo_child-panel.completed {
+    border-left: darkgreen solid 8px;
+}
