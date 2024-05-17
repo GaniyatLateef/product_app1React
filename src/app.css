@@ -26,3 +26,24 @@
     margin: auto;
     text-align: center;
 }
+
+.post-panel {
+    padding: 10px;
+    margin: 8px auto;
+    border-radius: 8px;
+    background-color: darkseagreen;
+}
+
+.post-panel .post-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: darkred;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.post-body {
+    font-style: italic;
+    color: purple;
+}
+
+
